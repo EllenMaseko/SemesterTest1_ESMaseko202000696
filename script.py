@@ -27,3 +27,6 @@ mae = mean_absolute_error(y_test, y_pred)
 
 print('MSE :', r2)
 print('MAE :', mae)
+
+open with('results.txt', 'w') as f:
+    f.write('MSE :', r2 /n 'MAE :', mae /n)
